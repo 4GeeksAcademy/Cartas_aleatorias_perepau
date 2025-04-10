@@ -1,35 +1,40 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="./assets/img/4geeks.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
 
-    <!-- Fontawesome is our recomended library for icons -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="./assets/img/4geeks.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello Rigo with Vanilla.js</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fontawesome is our recomended library for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+    integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+  <div class="my-container-fluid container d-flex justify-content-center align-items-center">
+    <div class="card">
+      <div class="top-left-suit"></div>
+      <div class="card-value"></div>
+      <div class="bottom-right-suit"></div>
     </div>
+  </div>
+  <div class="container text-center">
+    <button type="button" id="update-button" class="button-update btn btn-light m-2">Actualiza tu carta!!</button>
+  </div>
 
-    <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
-    <script type="module" src="/app.js"></script>
-  </body>
+
+
+
+
+
+  <script type="module" src="/app.js"></script>
+</body>
+
 </html>

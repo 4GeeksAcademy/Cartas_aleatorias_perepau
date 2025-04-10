@@ -1,5 +1,47 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card {
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.top-left-suit{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 80px;
+}
+
+.bottom-right-suit {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 80px;
+    transform: rotate(180deg);
+}
+
+.card-value{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 170px;
+}
+
+.my-container-fluid {
+    min-height: 100vh;
 }
